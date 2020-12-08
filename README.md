@@ -31,3 +31,13 @@ Python dictionary filter
 >>> filter_obj(obj, filter, default=True)
 {'name': 'shane', 'job': {'role': 'master of universe'}}
 ```
+
+## Stacked filters
+
+```python
+>>> obj = {'name': 'shane', 'job': {'salary': 1000000, 'role': {'title': 'master of universe', 'reality': 'dumpster fire starter'}}}
+>>> filter_1 = {'name': False}
+>>> filter_2 = {'job': {'salary': False, 'role': {'reality': False}}}
+>>> filter_obj(obj, [filter_1, filter_2], default=True)
+{'job': {'role': {'title': 'master of universe'}}}
+```
