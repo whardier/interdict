@@ -1,0 +1,2 @@
+# interdict
+Python dictionary filter
