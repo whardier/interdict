@@ -25,5 +25,6 @@
     "python.linting.pylintEnabled": false,
     "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
     "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort",
-    "python.terminal.activateEnvInCurrentTerminal": true
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "rewrap.wrappingColumn": 88
 }
