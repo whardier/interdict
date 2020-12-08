@@ -1,0 +1,35 @@
+repos:
+    - repo: https://github.com/pre-commit/pre-commit-hooks
+      rev: v3.2.0
+      hooks:
+          - id: trailing-whitespace
+          - id: end-of-file-fixer
+          - id: check-toml
+          - id: check-yaml
+          - id: check-json
+          - id: check-added-large-files
+          - id: detect-private-key
+    - repo: https://github.com/psf/black
+      rev: 20.8b1
+      hooks:
+          - id: black
+    - repo: https://github.com/pycqa/flake8
+      rev: 3.8.4
+      hooks:
+          - id: flake8
+    - repo: https://github.com/pycqa/isort
+      rev: 5.6.4
+      hooks:
+          - id: isort
+    - repo: https://github.com/myint/autoflake
+      rev: v1.4
+      hooks:
+          - id: autoflake
+    - repo: https://github.com/asottile/dead
+      rev: v1.3.0
+      hooks:
+          - id: dead
+    - repo: https://gitlab.com/smop/pre-commit-hooks
+      rev: v1.0.0
+      hooks:
+          - id: check-poetry

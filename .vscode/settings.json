@@ -1,0 +1,29 @@
+{
+    "editor.formatOnSave": true,
+    "editor.insertSpaces": true,
+    "editor.rulers": [
+        72,
+        88
+    ],
+    "editor.tabSize": 4,
+    "files.exclude": {
+        "**/*.egg-info": true,
+        "**/.mypy_cache": true,
+        "**/.venv": true,
+        "**/__pycache__": true
+    },
+    "python.disableInstallationCheck": true,
+    "python.formatting.blackPath": "${workspaceFolder}/.venv/bin/black",
+    "python.formatting.provider": "black",
+    "python.linting.banditEnabled": true,
+    "python.linting.banditPath": "${workspaceFolder}/.venv/bin/bandit",
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true,
+    "python.linting.flake8Path": "${workspaceFolder}/.venv/bin/flake8",
+    "python.linting.mypyEnabled": true,
+    "python.linting.mypyPath": "${workspaceFolder}/.venv/bin/mypy",
+    "python.linting.pylintEnabled": false,
+    "python.pythonPath": "${workspaceFolder}/.venv/bin/python",
+    "python.sortImports.path": "${workspaceFolder}/.venv/bin/isort",
+    "python.terminal.activateEnvInCurrentTerminal": true
+}
