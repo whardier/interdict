@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "interdict"
-version = "2020.11.0a1"
+version = "2020.11.0a2"
 description = "Dictionary filter"
 authors = ["Shane R. Spencer <305301+whardier@users.noreply.github.com>"]
 homepage = "https://github.com/whardier/interdict"
