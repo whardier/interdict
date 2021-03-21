@@ -21,7 +21,6 @@ bandit = "*"
 black = {version = "*", allow-prereleases = true}
 dead = "*"
 flake8 = "*"
-fuchar = "*"
 hypothesis = "*"
 isort = "*"
 mypy = "*"
