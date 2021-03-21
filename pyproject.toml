@@ -12,7 +12,7 @@ readme = "README.md"
 "Funding" = "https://github.com/sponsors/whardier"
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 flatten-dict = "*"
 
 [tool.poetry.dev-dependencies]
