@@ -5,9 +5,7 @@ orbs:
 
 jobs:
   build-and-test-python-3-7:
-    executor: python/default
-    parameters:
-      version: 3.7
+    executor: python/3.7
     steps:
       - checkout
       - python/install-packages:
