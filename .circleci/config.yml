@@ -12,8 +12,17 @@ jobs:
       - checkout
       - python/install-packages:
           pkg-manager: poetry
+  build-and-test-python-3-8:
+    executor:
+      name: python/default
+      tag: "3.8"
+    steps:
+      - checkout
+      - python/install-packages:
+          pkg-manager: poetry
 
 workflows:
   main:
     jobs:
       - build-and-test-python-3-7
+      - build-and-test-python-3-8
