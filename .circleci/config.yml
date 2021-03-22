@@ -14,6 +14,9 @@ jobs:
       - run:
           command: |
             poetry run pytest --version
+      - run:
+          command: |
+            poetry run python --version
   build-and-test-python-3-5:
     <<: *build-and-test-python
     executor:
