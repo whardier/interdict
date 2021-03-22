@@ -11,6 +11,21 @@ jobs:
       - checkout
       - python/install-packages:
           pkg-manager: poetry
+          name: Poetry Install
+      - do-pytest-version:
+          command: |
+            poetry run pytest --version
+          name: PyTest Version
+  build-and-test-python-3-5:
+    <<: *build-and-test-python
+    executor:
+      name: python/default
+      tag: "3.5"
+  build-and-test-python-3-6:
+    <<: *build-and-test-python
+    executor:
+      name: python/default
+      tag: "3.6"
   build-and-test-python-3-7:
     <<: *build-and-test-python
     executor:
