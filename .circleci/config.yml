@@ -4,7 +4,7 @@ orbs:
   python: circleci/python@1.3
 
 jobs:
-  .build-and-test-python: &build-and-test-python
+  build-and-test-python: &build-and-test-python
     parameters:
       pyver:
         description: "Python Version"
