@@ -27,7 +27,6 @@ jobs:
       name: python/default
       tag: "3.9"
   build-and-test-python-3-10:
-    name: "HI"
     <<: *build-and-test-python
     executor:
       name: python/default
