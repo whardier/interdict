@@ -4,7 +4,7 @@ orbs:
   python: circleci/python@1.3
 
 jobs:
-  build-and-test-python-parameterized:
+  build-and-test-python-macro:
     parameters:
       pyver:
         description: "Python Version"
@@ -20,7 +20,7 @@ jobs:
 workflows:
   main:
     jobs:
-      - build-and-test-python-parameterized:
+      - build-and-test-python-macro:
           pyver: "3.7"
-      - build-and-test-python-parameterized:
+      - build-and-test-python-macro:
           pyver: "3.8"
