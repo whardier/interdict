@@ -48,3 +48,9 @@ workflows:
       - build-and-test-python-3-7
       - build-and-test-python-3-8
       - build-and-test-python-3-9
+  build-and-test-for-love-and-profit:
+    jobs:
+      - build-and-test-python-3-6
+      - build-and-test-python-3-7
+      - build-and-test-python-3-8
+      - build-and-test-python-3-9
