@@ -17,6 +17,9 @@ jobs:
       - run:
           command: |
             poetry run python --version
+      - run:
+          command: |
+            poetry run python -c 'import time; print(time.time())'
   build-and-test-python-3-6:
     <<: *build-and-test-python
     executor:
