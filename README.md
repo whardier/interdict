@@ -1,3 +1,5 @@
+[![CircleCI](https://circleci.com/gh/whardier/interdict.svg?style=svg)](https://circleci.com/gh/whardier/interdict)
+
 # interdict
 Python dictionary filter
 
