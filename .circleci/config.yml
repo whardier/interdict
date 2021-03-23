@@ -37,11 +37,6 @@ jobs:
     executor:
       name: python/default
       tag: "3.9"
-  # build-and-test-python-3-10:
-  #   <<: *build-and-test-python
-  #   executor:
-  #     name: python/default
-  #     tag: "3.10"
 
 workflows:
   main:
@@ -50,4 +45,3 @@ workflows:
       - build-and-test-python-3-7
       - build-and-test-python-3-8
       - build-and-test-python-3-9
-      # - build-and-test-python-3-10
