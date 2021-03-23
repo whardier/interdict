@@ -1,4 +1,4 @@
-![PyPI - License](https://img.shields.io/pypi/l/interdict?style=for-the-badge) [![CircleCI](https://img.shields.io/circleci/build/gh/whardier/interdict/main?style=for-the-badge)](https://circleci.com/gh/whardier/interdict)
+![PyPI - License](https://img.shields.io/pypi/l/interdict?style=for-the-badge) [![CircleCI](https://img.shields.io/circleci/build/gh/whardier/interdict/main?label=CIRCLECI&logo=circleci&style=for-the-badge)](https://circleci.com/gh/whardier/interdict)
 
 # interdict
 Python dictionary filter
