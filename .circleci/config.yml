@@ -56,7 +56,10 @@ workflows:
           filters:
             branches:
               only: main
-      - build-and-test-python-3-9
+      - build-and-test-python-3-9:
+          filters:
+            branches:
+              only: main
   build-and-test-for-love-and-profit:
     jobs:
       - build-and-test-python-3-6
